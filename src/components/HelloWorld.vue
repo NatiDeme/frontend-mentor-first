@@ -4,7 +4,7 @@
       <img src="../assets/image-qr-code.png" alt="qr" class="image" />
       <p id="headline">Improve your front-end skills by building projects</p>
       <p id="paragraph">
-        scan the QR code to visit Frontend Mentor and take your coding skills to
+        Scan the QR code to visit Frontend Mentor and take your coding skills to
         the next level
       </p>
     </div>
@@ -32,6 +32,7 @@ export default {
     height: 18rem;
     width: 18rem;
     margin-top: 1rem;
+    border-radius: 8px;
   }
   .card {
     background-color: white;
@@ -52,14 +53,48 @@ export default {
   }
   #paragraph {
     font-weight: 400;
-    font-size: medium;
-    padding-left: 0.8rem;
-    padding-right: 0.8rem;
+    font-size: 0.7rem;
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
     margin-top: 1px;
     color: hsl(220, 15%, 55%);
+    margin-bottom: 2rem;
   }
 }
+.hello {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .image {
-  border-radius: 8px;
+  height: 18rem;
+  width: 18rem;
+  margin-top: 1rem;
+  border-radius: 10px;
+}
+.card {
+  background-color: white;
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+  text-align: center;
+  margin-top: 10rem;
+}
+#headline {
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  color: hsl(218, 44%, 22%);
+}
+#paragraph {
+  font-weight: 400;
+  font-size: 1rem;
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+  margin-top: 1px;
+  color: hsl(220, 15%, 55%);
 }
 </style>
