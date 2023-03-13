@@ -2,7 +2,7 @@
   <div class="hello">
     <div class="card">
       <img src="../assets/image-qr-code.png" alt="qr" class="image" />
-      <p id="headline">Improve your front-end skills by building projects</p>
+      <h1 id="headline">Improve your front-end skills by building projects</h1>
       <p id="paragraph">
         Scan the QR code to visit Frontend Mentor and take your coding skills to
         the next level

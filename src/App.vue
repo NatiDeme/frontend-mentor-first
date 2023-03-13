@@ -1,7 +1,7 @@
 <template>
-  <div id="app">
+  <main id="app">
     <HelloWorld msg="QR component" />
-  </div>
+  </main>
 </template>
 
 <script>
