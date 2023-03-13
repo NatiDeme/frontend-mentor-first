@@ -17,6 +17,6 @@ export default {
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Outfit", sans-serif;
 }
 </style>
